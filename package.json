@@ -1,16 +1,23 @@
 {
-  "name": "yes",
+  "name": "my-library-app",
   "version": "1.0.0",
-  "description": "proyecto practico TypeScrip\"\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\"\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[C\u001b[proyecto practico Typescrip\"",
+  "description": "Esta es la descripcion",
   "main": "index.js",
   "scripts": {
-    "start": "npx ts-node src/index.ts",
+    "run": "npx ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "Typescript",
+    "NodeJS"
+  ],
+  "author": "Miguel Vasquez",
   "license": "ISC",
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "my-library-app": "file:"
   }
 }
